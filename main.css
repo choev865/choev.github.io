@@ -1,0 +1,40 @@
+body {
+background-color: #95c5ee;
+
+}
+
+
+
+.h1 { font-family: initial; 
+font-size: 150px;
+}
+
+hr {
+  border-top: 40px;
+  border-color: black;
+  border-width: 10px;
+
+;}
+
+
+
+
+
+
+a { 
+font-size: 50px;
+padding: 20px;
+color: black;
+text-decoration: none;
+}
+
+
+
+/*
+ }
+ a {
+  color: black;
+font font-size: 80px;}
+.entry a {
+  padding: 50px;}
+*/
