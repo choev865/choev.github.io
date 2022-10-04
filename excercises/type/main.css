@@ -34,15 +34,10 @@ font-family: 'Syncopate', sans-serif;
 a.author {
 background-color: lightskyblue;
 text-decoration: none;
-
 }
 
-
-
-
-a .autor: hover {
-
-	background-color: mediumpurple;
+a.author:hover {
+	background-color: hotpink;
 	color: black;
 	cursor: pointer;
 
