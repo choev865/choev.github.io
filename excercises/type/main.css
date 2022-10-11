@@ -6,6 +6,10 @@ body{
 }
 
 
+@media (max-height: 650px) {
+  body {
+    background-color: orange;
+
 h1{font-size: 60px; 
 margin-bottom: 0;
 font-family: 'Syncopate', sans-serif;
