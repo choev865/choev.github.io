@@ -64,8 +64,17 @@ font-family: 'Montserrat', sans-serif
 
 h1 { 
 font-size: 70px;
+margin-bottom: none;
 }
-
+h2 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: none;
+  margin-bottom: 40px;
+}
+h3 {
+  font-size: 40px;
+}
 hr {
   border-top: 40px;
   border-color: white;
