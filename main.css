@@ -1,3 +1,59 @@
+@media (max-width: 650px) {
+.entries {
+  flex-direction: column;
+  flex-wrap: wrap;
+   gap: 80px;
+   align-content: center;
+}
+.entry {
+  flex-wrap: 100%;
+  gap: 50px;
+}
+
+}
+
+@media (min-width: 768px) {
+.entries {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+   gap: 50px;
+   align-content: center;
+}
+.entry {
+  flex-wrap: 100%;
+}
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+.entries {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+   gap: 50px;
+   align-content: center;
+}
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+ .entries {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+   gap: 50px;
+   align-content: center;
+
+}
+}
+
+
+
+
+
+
+
 body {
 background-color: black;
 color: white;
@@ -6,8 +62,8 @@ font-family: 'Montserrat', sans-serif
 
 
 
-.h1 { 
-font-size: 150px;
+h1 { 
+font-size: 70px;
 }
 
 hr {
@@ -18,24 +74,121 @@ hr {
 ;}
 
 
-
-
-
-
 a { 
-font-size: 50px;
+font-size: 30px;
 padding: 20px;
 color: white;
 text-decoration: none;
 }
 
-
-
-/*
- }
- a {
-  color: black;
-font font-size: 80px;}
-.entry a {
-  padding: 50px;}
+/*.entries {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  flex-basis: auto;
+}
 */
+
+/*.entries {
+display: grid;
+grid-template-rows: 33.3% 33.3% 33.35;
+gap: 10px;
+background-color: blueviolet;
+padding: 10px;
+
+}*/
+.entries {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}{box-sizing:  border-box;}
+
+.entry {
+  flex: 33.3%;
+  max-width: 300px;
+  justify-content: space-evenly;
+}
+
+
+
+.entry1 {
+background-color: none;
+padding: 50px;
+max-width: 300px;
+}
+.proposal img {
+  width: 100%;
+  height: initial;
+  display: block;
+  margin: 1px;
+}
+
+.entry2 {
+background-color: none;
+padding: 50px;
+max-width: 300px;
+}
+.midnight img {
+  width: 100%;
+  height: initial;
+  display: block;
+  margin: 1px;
+}
+
+
+
+.entry3 {
+background-color: none;
+padding: 50px;
+max-width: 300px;
+}
+.elf img {
+  width: 100%;
+  height: initial;
+  display: block;
+  margin: 1px;
+}
+
+
+.entry4 {
+background-color: none;
+padding: 50px;
+max-width: 300px;
+}
+.Wizard img {
+  width: 100%;
+  height: initial;
+  display: block;
+  margin: 1px;
+}
+
+
+.entry5 {
+background-color: none;
+padding: 50px;
+max-width: 300px;
+}
+.spider img {
+  width: 100%;
+  height: initial;
+  display: block;
+  margin: 1px;
+}
+
+
+
+figcaption {
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
