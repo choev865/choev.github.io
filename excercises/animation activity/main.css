@@ -1,0 +1,30 @@
+
+body {
+  background-color: pink;
+  font-family: arial;
+  color: red;
+  font-size: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item {
+  text-align: center;
+  animation:  spintype 2s;
+  animation-delay: 3s;
+  animation-iteration-count: 6;
+}
+
+
+ 
+@keyframes spintype {
+0% {transform: rotate(0);}
+50% {color: blue;}
+100% {transform:  rotate(1turn)}
+}

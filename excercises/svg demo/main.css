@@ -1,0 +1,13 @@
+body {background: purple;}
+img {max-width: 500px;}
+img:hover {
+	max-width: 600px;
+	cursor: pointer;
+}
+
+path.cls-1 {
+	fill: red;
+}
+#blob {
+	height: 500px;
+}
