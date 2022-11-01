@@ -1,6 +1,6 @@
 body
 {background-color: lightpink;
-color:  red;
+color:  darkred;
 font-family: 'Archivo Narrow', sans-serif;
 }
 
@@ -162,6 +162,7 @@ animation: heartspin 3s ease-out infinite;
   animation-play-state: paused;
 cursor: pointer;
 }
+
 
 
 
