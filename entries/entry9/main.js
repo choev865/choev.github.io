@@ -17,3 +17,15 @@ function popup() {
 
 let woman = document.querySelector(".woman");
 woman.addEventListener("click", popup);
+
+
+ function changeImage() {
+            var image = document.getElementById('myImage');
+            if (image.src.match("baby")) {
+                image.src = "woman.png";
+            }
+            else {
+                image.src = "baby.jpg";
+            }
+        }
+

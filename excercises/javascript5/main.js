@@ -10,3 +10,6 @@ function newColor() {
 }
 
 button.addEventListener("click", newColor);
+
+const d = new Date();
+document.getElementById("demo").innerHTML = d;

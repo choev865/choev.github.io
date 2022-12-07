@@ -1,5 +1,5 @@
 body
-{background-color: white;
+{background-color: #C4A484;
 color:  white;
 font-family: 'Archivo Narrow', sans-serif;
 }
@@ -7,7 +7,7 @@ font-family: 'Archivo Narrow', sans-serif;
 
 @media (max-width: 650px) {
   body {
-    background-color: white;
+    background-color: #C4A484; 
     color:  white;
   }
   .box {
@@ -15,14 +15,20 @@ font-family: 'Archivo Narrow', sans-serif;
         flex-wrap: wrap;
       }
     .symbols {
-      color: orange;
+       display: flex; 
+margin:10px ; 
+padding: 10px;
+column-gap: 40px;
+      color: white;
     }
+
+   
 }
 
 @media (min-width: 768px) {
   body {
     
-    background-color: white;
+    background-color: #C4A484;
     color: white;
   }
   .box {
@@ -31,14 +37,20 @@ font-family: 'Archivo Narrow', sans-serif;
 
   }
   .symbols {
-    color: orange;
+     display: flex; 
+margin:10px ; 
+padding: 10px;
+column-gap: 40px;
+    color: white;
+    
   }
+
 }
 
 /* Desktop breakpoint */
 @media (min-width: 992px) {
 body {
-  background-color: white;
+  background-color: #C4A484;
   color: white;
 }
 .box .review1 .review2 {
@@ -48,11 +60,10 @@ body {
   }
   .symbols {
  display: flex; 
-flex-direction: row;
 margin:10px ; 
 padding: 10px;
 column-gap: 40px;
-color: orange;
+color: white;
 
 }
 }
@@ -60,7 +71,7 @@ color: orange;
 /* Wide screen breakpoint */
 @media (min-width: 1200px) {
   body { 
-    background-color: white ;
+    background-color: #C4A484 ;
     color:  white;  
   }
 .box .review1 .review2 {
@@ -78,24 +89,35 @@ column-gap: 10px;}
 
 .symbols {
  display: flex; 
-
 margin:10px ; 
 padding: 10px;
 column-gap: 40px;
-color: orange;
+color: white;
 
 }
 }
 
-h1 {font-family: 'East Sea Dokdo', cursive;
+h1 {font-family: 'Cinzel', serif;
 font-size: 100px;
 margin: 0px;
 text-align: center;}
 .heading{
   position: sticky;
   top: 0;
-  background-color: orange;
+  background-color: #5C4033;
 }
+
+figure {
+background-color: none;
+padding: 50px;
+max-width: 300px;
+  height: initial;
+  display: block;
+  margin: 1px;
+
+}
+
+
 
 .Summary 
 {box-sizing:  border-box;}
@@ -111,7 +133,7 @@ text-align: center;}
 .column1 {
  font-size: 20px;
   flex: 50%;
-   background-color: orange;
+   background-color: #6F4E37;
   color: white;
   padding: 10px;
 
@@ -121,7 +143,7 @@ text-align: center;}
 .column2 {
   font-size: 20px;
   flex: 50%;
-   background-color: orange;
+   background-color: #6F4E37;
   color: white;
   padding: 10px;
 
@@ -129,29 +151,30 @@ text-align: center;}
 
 
 h6{
-font-family: 'East Sea Dokdo', cursive;
+font-family: 'Cinzel', serif;
 font-size: 50px;
 padding: 0px;
 margin: 0px;}
 
 
-.baby:hover {
-  scale: 1.5;
-  display: flex;
+.bear {
+  scale: 0.7;
+  position: static;
 
 }
 
+.bear:hover {
+  scale: 1.2;
+  display: flex;
 
 
-
-
-
+}
 
 .Characters {
   display: flex;
   justify-content: center;
   padding:0px;
-  background-color: orange;
+  background-color: #6F4E37;
   min-height: 120px;
   font-family: 'Archivo Narrow', sans-serif;
   color:  white;
@@ -168,12 +191,12 @@ margin: 0px;}
   font-size: 20px;
 }
 h4 {
-font-family: 'East Sea Dokdo', cursive;
+font-family: 'Cinzel', serif;
   font-size: 60px;
   padding: none;
   margin: 0px;
   justify-content: flex-start;
-  color: peachpuff;
+  color: #EADDCA;
 }
 
 h3 {
@@ -193,7 +216,7 @@ justify-content: space-evenly;}
   max-width: 5000 px;
 float: left;
   display: block;
-  color: orange;
+  color: #6F4E37;
   text-align: center;
   padding: 0px ;
   text-decoration: none;
@@ -201,7 +224,7 @@ float: left;
 
 .review1 {
 display:  flex;
-background-color: orange;
+background-color: #6F4E37;
 color: white;
 text-decoration: none;
 text-align: initial;
@@ -222,7 +245,7 @@ padding: none;
   display: flex;
   justify-content:  space-evenly;
   padding:20px;
-  background-color: orange;
+  background-color: #6F4E37;
   min-height: 120px;
   font-family: 'Archivo Narrow', sans-serif;
   color:  white;
@@ -234,14 +257,14 @@ padding: none;
   position: relative;
   display: inline-block;
 margin: 50px 30px;
-color: orange;}
+color: white;}
   
 
 .dropdown {
   display: none;
 
 flex-direction: row;
-background-color: orange;
+background-color: #6F4E37;
 color: white;
 text-decoration: none;
 text-align: initial;
@@ -260,6 +283,8 @@ z-index: 1;
   display: inline-block;
 
 }
+
+
 
 
 
