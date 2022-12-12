@@ -1,5 +1,4 @@
 
-.knife {color: darkred;font-size: 20px;}
 
 body
 {background-color: black;
@@ -8,12 +7,46 @@ font-family: 'Archivo Narrow', sans-serif;
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 767px) {
  
   .box {
     flex-direction: column;
         flex-wrap: wrap;
       }
+      .symbols {
+       display: flex; 
+margin:10px ; 
+padding: 10px;
+column-gap: 20px;
+      color: white;
+      flex-direction: column;
+        flex-wrap: wrap;
+    }
+ .heading {
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: none;
+
+      }
+  .subimage {
+    position: sticky;
+  }
+  .subheadings {
+    margin: none;
+}
+
+  .image {
+    align-items: center;
+  }
+.Characters {
+   flex-direction: column;
+        flex-wrap: wrap;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+
+}
 
 }
 
@@ -34,6 +67,24 @@ font-family: 'Archivo Narrow', sans-serif;
     flex-wrap: nowrap;
   
   }
+  .symbols {
+     display: flex; 
+margin:10px ; 
+padding: 10px;
+column-gap: 40px;
+    color: white;
+    
+  }
+  .heading {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .subimage {
+    position: sticky;
+  }
+  .subheadings {
+    margin: 10px;
+}
 }
 
 /* Wide screen breakpoint */
@@ -54,13 +105,137 @@ column-gap: 10px;}
 .names {
   display: row;
 }
+.heading {
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
+.subheadings {
+    margin: 30px;
+}
+  .symbols {
+ display: flex; 
+margin:10px ; 
+padding: 10px;
+column-gap: 40px;
+color: white;
+
+}
 }
 
 h1 {font-family: 'Anton', sans-serif;
-
+padding: 0px;
+margin: 0px;
+flex: 50%;
 font-size: 70px;
 text-align: center;}
+
+.heading{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    margin: none;
+    
+}
+.subimage {
+       display: flex;
+       justify-content:space-between ;
+       align-items: center;
+   background-color: darkred;
+   padding: 1rem;
+   flex: 50%;
+
+}
+
+.subheadings {
+  padding: 20px;
+  flex: 50%;
+  
+}
+.image {
+background-color: none;
+padding: 20px;
+max-width: 200px;
+min-width: 100px;
+   float: right;  
+   flex: 50%;  
+   text-align: center;
+
+}
+
+.midnight {
+  cursor: pointer;
+  overflow: hidden;
+
+}
+
+.midnight img {
+ width: 100%;
+  height: 100%;
+  margin: 10px; 
+  justify-content: center;
+  object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+
+.midnight img:hover {
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+
+}
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 50%;
+  max-width: 650px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
 .Summary 
 {box-sizing:  border-box;}
 .content:after {
@@ -92,10 +267,14 @@ text-align: center;}
 }
 
 h6{
+    font-family: 'Anton', sans-serif;
   font-size: 20px;
 margin: 5px;
 padding: 5px;}
 
+.symbols {
+  margin: auto;
+}
 
 .fillrect {
   padding: 0 10px;
@@ -125,28 +304,27 @@ padding: 5px;}
 }
 
 
-.Characters {
+.name {
   display: flex;
   justify-content:  space-evenly;
   padding:20px;
-  background-color: darkred;
   min-height: 120px;
-  font-family: 'Archivo Narrow', sans-serif;
   color:  white;
-  font-size:  60px;
-  text-align:  left;
-  min-width: 100%;
 }
+
+.Characters {
+background-color: darkred;
+}
+
 {box-sizing:  border-box;}
 .nametitle {
-	justify-content: flex-start;
+	padding: 20px;
 }
 .names {
   margin: 10px 10px;
   width: 300px;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 20px;
-  justify-content: space-evenly;
 }
 
 h4 {
@@ -212,11 +390,16 @@ padding: none;
   text-align:  left;
 }
 
+.levels {
+    float: right;
+  padding: auto;
+  margin:auto;
+}
+
 .paragraph {
   position: relative;
   display: inline-block;
 margin: 50px 30px;
-  
 
 }
 

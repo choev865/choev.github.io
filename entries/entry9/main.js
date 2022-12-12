@@ -1,31 +1,19 @@
-let body = document.body;
+var modal = document.getElementById("myModal");
 
-function turnOnLight() {
-  body.classList.toggle("light");
-  button.classList.toggle("buttonOn");
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+
 }
 
-let button = document.querySelector(".button");
-button.addEventListener("click", turnOnLight);
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
-
-
-let baby = document.popup;
-function popup() {
-  baby.classList.toggle("popup");
-  woman.classList.toggle("popup");
-
-let woman = document.querySelector(".woman");
-woman.addEventListener("click", popup);
-
-
- function changeImage() {
-            var image = document.getElementById('myImage');
-            if (image.src.match("baby")) {
-                image.src = "woman.png";
-            }
-            else {
-                image.src = "baby.jpg";
-            }
-        }
-
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
