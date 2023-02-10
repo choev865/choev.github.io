@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Rock 3D";
+  src: url("./fonts/NHaasGroteskDSPro-95Blk.woff") format("woff"),
+    url("./fonts/NHaasGroteskDSPro-95Blk.woff2") format("woff2");
+    font-weight: 400;
+    font-style:normal;
+    font-display: swap;
+}
+
+
+body {
+  background-color: pink;
+  font-family: 'Lexend', sans-serif;
+}
+.ticket {
+
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+.ticket img{
+  object-fit: 50% 50%;
+  display: block;
+  width:100%;
+} 
+/*
+.text {
+  display: flex;
+  position: relative;
+  width: auto;
+  height: 66%;
+  word-wrap: break-word;
+  background-color: yellow;
+ 
+
+}
+.beg {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate( -50%, -50% );
+    font-size: 50px;
+      word-wrap: break-word;
+  
+
+    /*top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 50px;
+z-index: 2;
+width: 100%;
+display: flex;
+margin: auto;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;*/
+
+}
+/*
+.mid {
+   position: absolute;
+    top: 30%;
+    right: 45%;
+    transform: translate( -50%, -50% );
+}*/
+
+.text {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.beg {
+  position: absolute;
+}
+
+
+
+
