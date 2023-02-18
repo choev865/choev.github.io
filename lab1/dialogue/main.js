@@ -1,4 +1,4 @@
-
+/*
 const scrollBtn = document.getElementById('scroll-btn');
 
 scrollBtn.addEventListener('click', function() 
@@ -38,3 +38,4 @@ function typeWriter() {
 
 
 
+*/
