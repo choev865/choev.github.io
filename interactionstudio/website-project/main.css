@@ -8,16 +8,7 @@
 }
 
 
-@media (max-width: 800px){
-.text {
-display: inline-block;
-max-height:40% ;
-background-color: darkblue;
-font-size: -50%;
-}
-.ticket .text {
-transform: rotate(90deg); 
-}
+
 
 
 
