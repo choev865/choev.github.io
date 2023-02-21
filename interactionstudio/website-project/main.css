@@ -15,7 +15,10 @@ max-height:40% ;
 background-color: darkblue;
 font-size: -50%;
 }
+.ticket .text {
+transform: rotate(90deg); 
 }
+
 
 
 
@@ -51,14 +54,14 @@ body {
   display: block;
   width:100%;
 } */
-
+/*
 .admit {
   width: 100%;
   background-image: src="./images/ticket.png";
   background-size: contain;
   background-position: center;
 }
-
+*/
 .beg {
   background-color: orange;
   text-align: left;

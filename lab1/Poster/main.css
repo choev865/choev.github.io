@@ -79,7 +79,7 @@ justify-content: space-between;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
 }
-.row-2-green:hover .row-2--content{
+.row-2-green:hover {
 	opacity: 1;
 	transform: translateX(-50%) translateY(-52%);
 	transition: opacity .3s ease; 
