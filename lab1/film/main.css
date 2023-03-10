@@ -1,0 +1,80 @@
+body {
+  background-image: url(./scenes/spots.png);
+ background-size: cover;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin: 100px;
+  color: #CC0000;
+  font-family: "bmx-radical", sans-serif;
+font-weight: 700;
+font-style: normal;
+text-shadow: 10px 0 20px black;
+}
+
+.filmstrip {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: black;
+
+}
+.filmstrip-items {
+  display: grid;
+  grid-auto-flow: column;
+  grid: 800px;
+   width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transition: transform 0.5s ease;
+  grid-template-columns: auto auto auto auto;
+  }
+
+.filmstrip-items .scenes img {
+  grid-row: 1;
+  width: 600px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  object-fit: cover;
+}
+
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.filmstrip-prev-btn {
+  left: 0;
+}
+
+.filmstrip-next-btn {
+  right: 0;
+}
+figcaption {
+  font-size: 20px;
+ padding-right: 20px;
+  padding: 5px;
+  color: white;
+  font-family: "bebas-neue-by-fontfabric", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+
+
+

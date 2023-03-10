@@ -64,7 +64,9 @@ body {
 }
 
 
-
+.grid-item.hidden {
+	display: none;
+}
 
 
 

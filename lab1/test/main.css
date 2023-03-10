@@ -1,464 +1,58 @@
-
-
-@font-face {
-    font-family: 'Isobare';
-    src: url('./fonts/Isobare-Regular.woff2') format('woff2'),
-        url('./fonts/Isobare-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-.call-header {
-background-color: darkred;
-color: white;
-font-family: 'Exo 2', sans-serif;
-text-align: center;
-padding: 50px;
-font-size: 50px;
-}
-
-.text-typing{
-  display: flex;
-  flex-direction: row;
-}
-
-.joe {
-  background-color: yellow;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Exo 2', sans-serif;
-  font-size: 20px;
-  margin: 10px;
-  padding: 5px;
-  height: auto;
-  width: 50%;
-  
-
-
-}
-.title1 {
-  display: flex;
-  font-family: 'Exo 2', sans-serif;
-  background-color: darkred;
-  color: white;
-  text-align: center;
-  align-items: center;
-  justify-items: center;
-  font-size: 30px;
-  padding: 5px;
-  margin: 10px;
-  height: auto;
-  width: 50%;
-}
-
-
-.emily {
-  background-color: yellow;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Isobare';
-  font-size: 30px;
-  margin: 10px;
-  padding: 5px;
-  height: auto;
-  width: 50%;
-  
-}
-.title2{
-    display: flex;
-  font-family: 'Exo 2', sans-serif;
-  background-color: darkred;
-  color: white;
-  text-align: center;
-  align-items: center;
-  justify-items: center;
-  font-size: 25px;
-  padding: 5px;
-  margin: 10px;
-  height: auto;
-  width: 50%;
-
-}
-/*
-
-.content p {
-        border-right: .15em solid orange;
-        font-family: "Courier";
-        font-size: 15px;
-        white-space: wrap;
-        overflow: visible;
-        overflow-wrap: break-word;
-      }
-  
-      @keyframes type3 {
-        0% {
-          width: 0;
-        }
-        1% {
-          opacity: 1;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-      
-      @keyframes blink {
-        50% {
-          border-color: transparent;
-        }
-      }
-    ]
-
-.content p:nth-child(1) {
-        width: 100%;
-        opacity: 0;
-        animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
-        animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
-        animation-delay: 5.5s;
-        animation-delay: 5.5s;
-        animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-      }
-
-.content p:nth-child(2) {
-        width: 100%;
-        opacity: 0;
-        animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
-        animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
-        animation-delay: 5.5s;
-        animation-delay: 5.5s;
-        animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-      }
-.content p:nth-child(16) {
-        width: 7.3em;
-        opacity: 0;
-        animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
-        animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
-        animation-delay: 4s;
-        animation-delay: 4s;
-        animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-      }
-
-
-
-*/
-/*second section*/
-/*
-.content2 p {
-        border-right: .15em solid orange;
-        font-family: 'Isobare';
-        font-size: 30px;
-        white-space: nowrap;
-        overflow: hidden;
-        overflow-wrap: break-word;
-      }
-
-  .henry {
-font-family: 'Exo 2', sans-serif;
-  }
-  
-      @keyframes type3 {
-        0% {
-          width: 0;
-        }
-        1% {
-          opacity: 1;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-      
-      @keyframes blink {
-        50% {
-          border-color: transparent;
-        }
-      }
-    ]
-
-.content2 p:nth-child(1) {
-        width: 50em;
-        opacity: 0;
-        animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
-        animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
-        animation-delay: 3.5s;
-        animation-delay: 3.5s;
-        animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-      }
-
-
-.content2 p:nth-child(16) {
-        width: 7.3em;
-        opacity: 0;
-        animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
-        animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
-        animation-delay: 4s;
-        animation-delay: 4s;
-        animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-      }
-
-*/
-
-/*
-.container{
-  margin-top: 50px; 
-  width: 50%;
-   height:auto;
-  margin:0px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:#ddd;
-}
-*/
-/*
-.text-typing {
-  padding:20px 30px;
-  background:#f5f5f5;
-  font-size:15px;
-  font-family:monospace;
-  border-radius:50px;
-}
-*/
-
-@keyframes typing {
-  0% { width:0% }
-  1% {opacity: 1}
-  100% { width:100%;
-  opacity: 1; }
-}
-@keyframes blink {
-  0%,100% {
-    border-right:2px solid transparent;
-  }
-  50% {
-    border-right:2px solid #222;
-  }
-}
-/*
-p{
-  padding: 40px;
-  margin: 10px;
-  background:white;
-  border-radius:50px;
-  max-width: 100%;
-  width: 80%;
-
-}*/
-
-.joe p:nth-child(2) {
-  margin:0px;
-  opacity: 0;
-  white-space:nowrap;
-  overflow:hidden;
-  animation:typing 4s steps(22,end) forwards,
-            blink 1s infinite;
-  animation-delay: 1s;
-}
-
-.emily p:nth-child(2){
-  margin:0px;
-  opacity: 0;
-  white-space:nowrap;
-  overflow:hidden;
-  animation:typing 4s steps(22,end) forwards,
-            blink 1s infinite;
-  animation-delay: 6s;
-}
-
-.joe p:nth-child(3) {
-  margin:0px;
-  opacity: 0;
-  white-space:nowrap;
-  overflow:hidden;
-  animation:typing 4s steps(22,end) forwards,
-            blink 1s infinite;
-  animation-delay: 10s;
-}
-
-.emily p:nth-child(3){
-  margin:0px;
-  opacity: 0;
-  white-space:nowrap;
-  overflow:hidden;
-  animation:typing 4s steps(22,end) forwards,
-            blink 1s infinite;
-  animation-delay: 15s;
-}
-
-
-
-(Responsive website)
-
-
-/*
-
-.kettle {
-  background-color: blue;
-  display: flex;
-  width: 70%;
+.filmstrip-container {
+  display: grid;
   position: relative;
-  width: 50%;
-  height: 50%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.empty {
-  background-color: red;
-  display: flex;
-  width: 100%;
-  position: relative;
-  width: 70%;
-  height: 50%;
-  float: right;
-  top: 20px;
-  z-index: 1;
-}
-
-.full {
-  display: flex;
-  width: 100%;
-  height: auto;
-  visibility: hidden;
-}
-}
-/*
-@media screen and (min-width: 1251px) {
-  body {
-  background-color: yellow;
-}
-
-.kettle {
-  background-color: blue;
-  display: flex;
-  position: relative;
-  width: 30%;
-  height: 30%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.empty {
-  display: flex;
-  position: relative;
-  width: 30%;
-  height: 30%;
-  float: right;
-  top: 100px;
-  z-index: 1;
-}
-
-.full {
-  display: flex;
-  width: 100%;
-  height: auto;
-  visibility: hidden;
-}
-}
-
-
-
-
-.container .kettle img {
-  z-index: 2;
-}
-
-.container .empty img {
-  z-index: 1;
-}
-
-
-
-
-
-
-
-/*body {
+  overflow: hidden;
   background-color: tan;
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    background-color: #e0e0e0;
-    
-  } 
-  .container {
-  visibility: hidden;
+.filmstrip {
+  display: grid;
+  grid-auto-flow: column;
+  width: fit-content;
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
 }
-.full {
-  visibility: visible;
-position: absolute;
-width: 30%;
-height: 30%;
-  top: 0;
+
+.filmstrip img {
+  width: 200px;
+  height: 150px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.filmstrip-prev {
   left: 0;
 }
+
+.filmstrip-next {
+  right: 0;
 }
-@media screen (max-width: 500 px) {
-   body {
-    background-color: yellow;
-  }
-  .container {
-    grid-template-columns: 1fr;
-  }
-  .container img {
-    max-width: 50%;
-  }
-}
-
-
-
 /*
-.container {
-    display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0;
-
-}
-.container img {
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.5s ease;
-}*/
-/*
-
-
-.kettle {
-position: relative;
-width: 30%;
-height: 30%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-
+.filmstrip-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
 }
 
-.empty {
-position: relative;
-width: 30%;
-height: 30%;
-float: right;
-top: 500px;
-z-index: 1;
+.filmstrip-controls button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 10px;
 }
-
-.full {
-  width: 100%;
-  height: auto;
-    visibility: hidden;
-
-}
-
-
-
-
-
