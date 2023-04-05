@@ -1,0 +1,122 @@
+/*.motown-filter-show{
+    background-color: purple;
+    opacity: 0.25;
+}
+
+.airtable-image{
+    width:100px;
+}*/
+
+.airtable-image{
+  position: absolute; 
+  z-index: 1;
+  margin: 2px;
+  display: block;
+    max-width:100%;
+    max-height:560px;
+    width: 600px;
+    height: auto;
+/*  border-radius: 50%;*/
+  object-fit: cover;
+}
+.airtable-image:nth-of-type(2) {
+  z-index: 2; 
+}
+.image:nth-of-type(3) {
+  z-index: 3; 
+}
+
+.airtable-item{
+  border: 1px solid black; 
+
+}
+
+.filter-show{
+  background-color: gray;
+  display: block;
+}
+
+.filter-hide{
+  display: none; 
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+
+}
+
+
+.airtable-item {
+  cursor: pointer;
+  overflow: hidden;
+
+}
+
+
+
+.pop-up {
+  display: none; 
+  position: fixed; 
+  z-index: 100; 
+  padding-top: 100px; 
+  right: 0;
+  width: 50%; 
+  height: 50%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+
+}
+
+
+
+.pop-up-content {
+  margin: auto;
+  display: block;
+  position: relative;
+  color: white;
+  width: 50%;
+  max-width: 650px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.button-label {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
