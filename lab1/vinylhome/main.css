@@ -75,10 +75,12 @@ img {
 
 body {
     font-family: 'druk_wide_trialmedium';
+    color: black;
 }
 h1 {
 width: 80%;
 	font-size: 6vh;
+	color: black;
 }
 
 .records {
