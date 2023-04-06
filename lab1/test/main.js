@@ -47,3 +47,19 @@ nextBtn.addEventListener("click", function() {
     filmstripItems.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
   }
 });
+
+
+
+
+let toggleButton = document.querySelector(".toggle-menu-btn");
+let menuItemsContainer = document.querySelector(".menu-items-container");
+
+// Add click event listener to the toggle button
+toggleButton.addEventListener('click', function() {
+  // Toggle the display property of the menu items container to show/hide the menu
+  if (menuItemsContainer.style.display === 'none') {
+    menuItemsContainer.style.display = 'block';
+  } else {
+    menuItemsContainer.style.display = 'none';
+  }
+});

@@ -1,0 +1,346 @@
+
+@font-face {
+    font-family: 'druk_wide_trialmedium';
+    src: url('./fonts/drukwide-medium-trial-webfont.woff2') format('woff2'),
+         url('.fonts/drukwide-medium-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'druk_text_wide_trialbold';
+    src: url('./fonts/druktextwide-bold-trial-webfont.woff2') format('woff2'),
+         url('./fonts/druktextwide-bold-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'druk_text_trialbold';
+    src: url('./fonts/druktext-bold-trial-webfont.woff2') format('woff2'),
+         url('./fonts/druktext-bold-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@media (max-width: 767px){
+}
+
+
+body {
+background: linear-gradient(90deg, #A8BFFF, #884D80, rgb(151, 150, 240), rgb(251, 199, 212), mediumpurple, #A8BFFF);
+  background-size: 1000%;
+  animation: background 20s linear alternate infinite;
+
+    display: flex;
+  flex-direction: column;
+
+}
+
+@keyframes background {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+
+h2{
+    font-family: 'druk_wide_trialmedium';
+    position: absolute; 
+     z-index: 201;
+    font-size: 100px;
+    display: flex;
+    top: 780px;
+    left: 20%;
+     text-align: center;
+
+/*margin: 60px;
+  top: 900px;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  
+*/
+
+ /* max-width:120%;
+    max-height:700px;
+    width: 800px;
+    height: auto;*/
+
+
+}
+.folder-group {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+.folder-date {
+position: relative;
+width: 100%;
+}
+
+.folder1{
+     position: fixed; 
+  z-index: 200;
+  margin: 2px;
+  display: block;
+  top: 600px;
+  left: 0;
+    max-width:120%;
+    max-height:700px;
+    width: 900px;
+    height: auto;
+   /* max-width:100%;
+    max-height:700px;
+    width: 900px;
+    height: auto;*/
+  object-fit: cover;
+  box-shadow: 10px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.folder2{
+     position: fixed; 
+  z-index: 0;
+  margin: 2px;
+  display: block;
+  top: 250px;
+  left: 0;
+    max-width:120%;
+    max-height:700px;
+    width: 900px;
+    height: auto;
+  object-fit: cover;
+    box-shadow: 10px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.airtable-item-group {
+    position: relative;
+    width: 100%;
+}
+.airtable-image{
+  position: absolute; 
+  z-index: 1;
+  
+  display: block;
+    max-width:100%;
+    max-height:700px;
+    width: 700px;
+    height: auto;
+/*  border-radius: 50%;*/
+  object-fit: cover;
+
+}
+
+.airtable-image:nth-of-type(2) {
+  z-index: 2; 
+}
+.image:nth-of-type(3) {
+  z-index: 3; 
+}
+.airtable-item{
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+
+.filter-show{
+  background-color: gray;
+  display: block;
+}
+
+.filter-hide{
+  display: none; 
+}
+
+.container{
+    position: relative;
+    width: 100vw; /* 50% of viewport width */
+  height: 100vh;
+  display: flex;
+
+
+}
+
+
+.airtable-item {
+  cursor: pointer;
+  overflow: hidden;
+
+}
+
+
+
+.pop-up {
+  display: none; 
+
+  position: absolute; 
+  z-index: 300; 
+  padding-top: 100px; 
+  padding-bottom: 100px; 
+  right: 0;
+  margin-right: 50px;
+  max-width:100%;
+    max-height:800px;
+    width: 40%;
+    height: auto;
+ /* width: 50%; 
+  height: 100%; */
+  overflow-y: scroll; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+
+}
+
+
+
+.pop-up-content {
+    font-family: 'druk_text_trialbold';
+      font-size: 20px;  
+  margin: auto;
+  display: block;
+  position: relative;
+  color: white;
+  width: 60%;
+  max-width: 650px;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+
+}
+
+.pop-up-title {
+    font-size: 45px;  
+    padding-bottom: 5px;
+
+}
+.pop-up-artist {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.pop-up-image{
+    width: 80%;
+}
+.pop-up-label {
+    padding-top: 30px;
+
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*.button-label {
+  display: none;
+}
+*/
+
+
+
+/*.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+.toggle-menu-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.button-wrapper {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-label {
+  margin: 0 1rem;
+  border: 1px solid black;
+}
+*/
+
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2em;
+
+}
+
+.button-group {
+  font-family: 'druk_text_trialbold';
+  margin: 10px;
+  margin-right: 1em;
+  position: relative;
+  
+}
+
+.toggle-menu-btn {
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-family: 'druk_text_wide_trialbold';
+  font-size: 1em;
+  padding: 1em;
+}
+
+.button-wrapper {
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: none;
+  min-width: 160px;
+  position: absolute;
+  z-index: 500;
+}
+
+.button-wrapper .btn-label,
+.btn-genre,
+.btn-mood,
+.btn-all {
+  color: black;
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+.button-group:hover .button-wrapper {display: block;}
+
+.btn-all:hover,
+.btn-label:hover,
+.btn-genre:hover,
+.btn-mood:hover {
+  background-color: #ddd;
+}
+
+
+
+
+
+
+
+

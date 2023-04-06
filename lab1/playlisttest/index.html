@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Airtable API</title>
+
+    <!-- add reset to create consistency between browsers and devices. -->
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+
+    <!-- add link to your javascript. be sure it includes "defer" -->
+    <script type="text/javascript" src="./airtable.browser.js" defer></script>
+
+</head>
+    <body>
+        <main data-date="70s">
+            
+        </main>
+        
+    <div class="button-group">
+        <button class="toggle-menu-btn">Labels</button>
+        <div class="button-wrapper">
+        <button type="button" class="btn-label" data-label="Label: Motown Records">Motown Records</button>
+        <button type="button" class="btn-label" data-label="Label: Atlantic Records">Atlantic Records</button>
+        <button type="button" class="btn-label" data-label="Label: Columbia Records">Columbia Records</button>
+        <button type="button" class="btn-label" data-label="Label: RCA Records">RCA Records</button>
+        <button type="button" class="btn-label" data-label="Label: Warner Bros Records">Warner Bros Records</button>
+        <button type="button" class="btn-label" data-label="Label: Capitol Records">Capitol Records</button>
+        <button type="button" class="btn-label" data-label="Label: Elektra Records">Elektra Records</button>
+        <button type="button" class="btn-label" data-label="Label: Epic Records">Epic Records</button>
+        <button type="button" class="btn-label" data-label="Label: Decca Records">Decca Records</button>
+        <button type="button" class="btn-label" data-label="Label: Blue Note Records">Blue Note Records</button>
+        <button type="button" class="btn-all" data-label="ShowAll">Show All</button>
+        </div>
+    </div>
+        <div class="container">
+            <div class="airtable-item-group"></div>
+                <div class="folder-group">
+                 <img class="folder1" src="./photos/70folder.png">  
+
+                  <img class="folder2" src="./photos/70folder.png">  
+                  <h2>70s</h2>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="./script.js" defer></script>
+    </body>
+</html>

@@ -40,7 +40,7 @@ button {
 .filmstrip-next {
   right: 0;
 }
-/*
+/*/*
 .filmstrip-controls {
   position: absolute;
   top: 50%;
@@ -56,3 +56,45 @@ button {
   cursor: pointer;
   margin: 0 10px;
 }
+
+*/
+
+.menu-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-menu-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.menu-items-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  display: none;
+}
+
+.menu-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-items li {
+  padding: 1rem;
+}
+
+.menu-items li a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+

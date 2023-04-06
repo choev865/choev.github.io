@@ -1,0 +1,105 @@
+
+
+@font-face {
+    font-family: 'druk_wide_trialmedium';
+    src: url('./fonts/drukwide-medium-trial-webfont.woff2') format('woff2'),
+         url('.fonts/drukwide-medium-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'druk_wide_boldbold';
+    src: url('./fonts/druk_wide_bold-webfont.woff2') format('woff2'),
+         url('./fonts/druk_wide_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+  animation-name: backgroundColorPalette;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes backgroundColorPalette {
+  0% {
+    background: rgb(253, 218, 255);
+  }
+  25% {
+    background: rgb(223, 173, 252);
+  }
+  50% {
+    background: rgb(173, 205, 252);
+  }
+  75% {
+    background: rgb(173, 252, 244);
+  }
+  100% {
+    background: rgb(202, 248, 208);
+  }
+}
+
+
+
+.container{
+	  display: flex;
+  flex-direction: column;
+}
+
+.title {
+display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.records {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+
+
+
+}
+img {
+
+    width: 600px;
+    height: auto;
+}
+
+body {
+    font-family: 'druk_wide_trialmedium';
+}
+h1 {
+width: 80%;
+	font-size: 80px;
+}
+
+.records {
+	font-size: 50px;
+	text-align: center;
+	justify-items: center;
+	text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+	color: gray;
+}
+
+
+
+
+
