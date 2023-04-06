@@ -152,36 +152,9 @@ background: linear-gradient(90deg, #A8BFFF, #884D80, rgb(151, 150, 240), rgb(251
 
   .airtable-item {
       margin-bottom: 5vw;
-
+      margin-top: 6vw;
     margin-left: unset;
   }
-
-
-.buttons {
-  display: flex;
-  width: 100%;
-  margin: 2em;
-  z-index: 500;
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  
-}
-.button-group {
-  font-family: 'druk_text_trialbold';
-  margin: 10px;
-  margin-right: 1em;
-  position: relative;
-}
-.toggle-menu-btn {
-  background-color: black;
-  border: none;
-  border-radius: 50%;
-  color: white;
-  font-family: 'druk_text_wide_trialbold';
-  font-size: 1em;
-  padding: 1em;
-}
 
 
 }
@@ -246,11 +219,19 @@ background: linear-gradient(90deg, #A8BFFF, #884D80, rgb(151, 150, 240), rgb(251
 
 .airtable-item {
   margin-bottom: 5vw;
+  margin-top: unset;
+  margin-top: unset;
 
 }
-.buttons {
-  width: 100%;
-}
+  .buttons {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+  }
+
+  .button-group {
+    margin-right: 0;
+  }
 }
 
 
@@ -422,6 +403,18 @@ flex-direction: column;
 }
 
 
+@media (max-width: 450px) {
+  .buttons {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+  
+  }
+
+  .button-group {
+    margin-right: 0;
+  }
+}
 /*.button-label {
   display: none;
 }
