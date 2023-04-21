@@ -59,6 +59,17 @@ function renderItems(collection) {
  		collectionList.appendChild(listContainer);
 		
 		
+		// listCover.addEventListener('click', () => {
+  		// listMovie.style.opacity = listMovie.style.opacity === '0' ? '1' : '0';
+		 
+
+		//   listCover.addEventListener('click', function() {
+		// 	listCover.classList.toggle('card-flip');
+		//   });
+
+		// const clickableImage = document.querySelector('.clickable-image');
+		// const popupContainer = document.querySelector('.popup-container');
+		
 		listCover.addEventListener('click', () => {
 		  popup.style.display = 'block';
 		});
@@ -73,46 +84,51 @@ function renderItems(collection) {
 		}
 
 
-
-
-		document.querySelectorAll(".btn-genre").forEach((btn) => {
-			btn.addEventListener("click", function(event){ShowHideFilter(event, "genre")});
-		  });
-		  
-		  document.querySelectorAll(".btn-all").forEach((showAllBtn) => {
-			showAllBtn.addEventListener("click", function(event){ShowAll(event)});
-		  });
-		  
-		  
-		  function ShowHideFilter(e, datasetKey) {
-			console.log(e.target.dataset[datasetKey]);
-			let listofContainers = document.querySelectorAll("div.container");
-			listofContainers.forEach(function SearchFilter(movie) {
-			  movie.classList.remove("filter-hide");
-			  let movieGenres = movie.getAttribute("data-genre").split(",");
-			  if (movieGenres.includes(e.target.dataset[datasetKey])) {
-				movie.classList.add("filter-show");
-			  } else {
-				movie.classList.add("filter-hide");
-			  }
-			});
-		  }
-		  
-		  function ShowAll(e) {
-			let listofContainers = document.querySelectorAll("div.container");
-			listofContainers.forEach( function ShowAllMovies(movie){
-			  movie.classList.remove("filter-hide");
-			  movie.classList.add("filter-show");
-			});
-		  };
-	
-
-
-
-	});
+});
 }
 
 
+// const sortButton = document.querySelector('sort-button');
+
+// sortButton.addEventListener('click', () => {
+//   fetch('data.json')
+//     .then(response => response.json())
+//     .then(data => {
+//       data.sort((a, b) => a.release_year - b.release_year);
+//       // Now your data is sorted by release year
+//       console.log(data);
+//     });
+// });
+
+
+
+
+
+		// const listMovie = document.createElement('div') // Make the `div
+		// listMovie.classList.add("Details");
+
+		// listMovie.innerHTML = movie.fields.Title;
+		// listMovie.innerHTML = movie.fields.Director;
+
+
+// let collection = document.querySelector(".collection")
+// .eachPage(
+// 	function page(movies, fetchNextPage){
+// 		  movies.forEach(
+// 			function (movie) {
+			
+// 				let detail = document.createElement("div");
+//         // // add some data specific meta to my new divs for filtering
+
+//  		 	detail.innerHTML = movie.fields.title;
+// 			detail.innerHTML = movie.fields.director;
+
+// collectionList.appendChild(listMovie)
+// 			}
+// 			)
+// 		  }
+// 		  ;
+		  
 		  
 // Fetch gets your JSON file.
 fetch('./data.json')
@@ -123,8 +139,31 @@ fetch('./data.json')
 		// And passes the data to the function, above!
 		renderItems(collection.reverse()); // In reverse order
 	})
+
+	
+	// fetch('./data.json')
+
+	// .then(response => response.json())
+	// .then(data => {
+	//   // Define a sorting function
+	//   function sortByReleaseYear() {
+	// 	data.sort((a, b) => a.release_year - b.release_year);
+	// 	collectionList.innerHTML = '';
+	// 	// Display the sorted data on the page
+	// 	// (Replace this with your own display logic)
+	// 	renderItems(data);
+	// 	console.log(data);
+	//   }
+  
+	//   // Attach an event listener to the sort button
+	//   const sortButton = document.querySelector(".sort-button");
+	//   sortButton.addEventListener('click', sortByReleaseYear);
+	// });
+	
 	
 
 
 
+	  
 
+	
