@@ -1,0 +1,527 @@
+
+[
+  {
+    "image": "./photos/walle.jpg",
+    "title": "Wall-e",
+    "director": "Andrew Stanton",
+    "release_year": 2008 ,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "characters": [
+      "Wall-E",
+      "Eve"
+    ],
+    "summary":"In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+    "rating": 8.4,
+    "is_musical": false
+  
+  },
+  
+  
+  {
+    "image": "./photos/up.jpg",
+    "title": "Up",
+    "director": [
+      "Pete Doctor",
+      "Bob Peterson"
+    ],
+    "release_year": 2009,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Comedy",
+      "Drama"
+    ],
+    "characters": [
+      "Carl",
+      "Russell"
+    ],
+    "summary":"78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+    "rating": 8.3,
+    "is_musical": false
+  
+  },
+  
+  
+  {
+    "image": "./photos/toystory.jpg",
+    "title": "Toy Story",
+    "director": "John Lasseter",
+    "release_year": 1995 ,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Woody",
+      "Buzz Lightyear",
+      "Wendy",
+      "Andy"
+    ],
+    "summary":"A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's bedroom.",
+    "rating": 8.3,
+    "is_musical": false
+  
+  },
+  
+  
+  {
+    "image": "./photos/insideout.jpg",
+    "title": "Inside Out",
+    "director": [
+      "Pete Doctor",
+      "Ronnie Del Carmen"
+  ],
+    "release_year": 2015,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Joy",
+      "Sadness",
+      "Disgust",
+      "Anger",
+      "Fear",
+      "Riley"
+    ],
+    "summary":"After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.",
+    "rating": 8.1,
+    "is_musical": false
+  
+  },
+  
+  
+  {
+    "image": "./photos/coco.jpg",
+    "title": "Coco",
+    "director": [
+      "Lee Unkrich",
+      "Adrian Molina"
+    ],
+    "release_year": 2017,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Miguel",
+      "Hector",
+      "Ernesto",
+      "Abuelita"
+    ],
+    "summary":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+    "rating": 8.4,
+    "is_musical": true
+  
+  },
+  
+  
+  {
+    "image": "./photos/findingnemo.jpg",
+    "title": "Finding Nemo",
+    "director": [
+      "Andrew Stanton",
+      "Lee Unkrich"
+    ],
+    "release_year": 2003,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Nemo",
+      "Dory",
+      "Marlin"
+    ],
+    "summary":"After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+    "rating": 8.2,
+    "is_musical": false
+  
+  },
+  
+  {
+    "image": "./photos/monstersinc.jpg",
+    "title": "Monsters, Inc.",
+    "director": [
+      "David Silverman",
+      "Pete Doctor",
+      "Lee Unkrich"
+    ],
+    "release_year": 2001,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Nemo",
+      "Dory",
+      "Marlin"
+    ],
+    "summary":"After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+    "rating": 8.2,
+    "is_musical": false
+  
+  },
+  
+  
+  {
+    "image": "./photos/incredibles.jpg",
+    "title": "The Incredibles",
+    "director": [
+      "Brad Bird"
+    ],
+    "release_year": 2004 ,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Action"
+    ],
+    "characters": [
+      "Bob",
+      "Helen",
+      "Violet",
+      "Dash",
+      "Edna",
+      "Syndrome"
+    ],
+    "summary":"While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world.",
+    "rating": 8,
+    "is_musical": false
+  
+  },
+  
+  
+  {
+    "image": "./photos/ratatouille.jpg",
+    "title": "Ratatouille",
+    "director": [
+      "Brad Bird",
+      "Jan Pinkava"
+    ],
+    "release_year": 2007 ,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Alfredo",
+      "Remy",
+      "Anton",
+      "Colette"
+    ],
+    "summary":"A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant.",
+    "rating": 8.1,
+    "is_musical": false
+  
+  },
+  
+  
+  {
+    "image": "./photos/zootopia.jpg",
+    "title": "Zootopia",
+    "director": [
+      "Byron Howard",
+      "Rich Moore",
+      "Jared Bush"
+    ],
+    "release_year": 2016,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Judy",
+      "Nick",
+      "Mayor Belwether",
+      "Chief Bogo"
+    ],
+    "summary":"In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+    "rating": 8,
+    "is_musical": false
+  
+  },
+  
+  
+  {
+    "image": "./photos/shrek.jpg",
+    "title": "Shrek",
+    "director": [
+      "Andrew Adamson",
+      "Vicky Jenson"
+    ],
+    "release_year": 2001,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Shrek",
+      "Fiona",
+      "Donkey",
+      "Lord Farquaad"
+  
+    ],
+    "summary":"A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+    "rating": 7.9,
+    "is_musical": false
+  
+  },
+  
+  
+  {
+    "image": "./photos/tangled.jpg",
+    "title": "Tangled",
+    "director": [
+      "Nathan Greno",
+      "Byron Howard"
+    ],
+    "release_year": 2010,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Rapunzel",
+      "Flynn",
+      "Mother Gothel"
+    ],
+    "summary":"The magically long-haired Rapunzel has spent her entire life in a tower, but now that a runaway thief has stumbled upon her, she is about to discover the world for the first time, and who she really is.",
+    "rating": 7.7,
+    "is_musical": true
+  
+  },
+  
+  
+  
+  {
+    "image": "./photos/legomovie.jpg",
+    "title": "The Lego Movie",
+    "director": [
+      "Phil Lord",
+      "Christopher Miller"
+    ],
+    "release_year": 2014,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Action"
+    ],
+    "characters": [
+      "Emmet",
+      "Wyldstyle",
+      "President Business",
+      "Vitruvius"
+    ],
+    "summary":"An ordinary LEGO construction worker, thought to be the prophesied as 'special', is recruited to join a quest to stop an evil tyrant from gluing the LEGO universe into eternal stasis.",
+    "rating": 7.7,
+    "is_musical": true
+  
+  },
+  
+  
+  
+  {
+    "image": "./photos/bighero6.jpg",
+    "title": "Big Hero 6",
+    "director": [
+      "Don Hall",
+      "Chris Williams"
+    ],
+    "release_year": 2014,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Action"
+    ],
+    "characters": [
+      "Baymax",
+      "Hiro"
+    ],
+    "summary":"A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who together team up with a group of friends to form a band of high-tech heroes.",
+    "rating": 7.8,
+    "is_musical": false
+  
+  },
+  
+  
+  
+  
+  {
+    "image": "./photos/despicableme.jpg",
+    "title": "Despicable Me",
+    "director": [
+      "Pierre Coffin",
+      "Chris Renaud"
+    ],
+    "release_year": 2010,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Gru",
+      "Agnes",
+      "Margo",
+      "Edith"
+    ],
+    "summary":"When a criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, he finds their love is profoundly changing him for the better.",
+    "rating": 7.6,
+    "is_musical": false
+  
+  },
+  
+  
+  
+  
+  {
+    "image": "./photos/wreckitralph.jpg",
+    "title": "Wreck-It Ralph",
+    "director": [
+      "Rich Moore"
+  
+    ],
+    "release_year": 2012,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Ralph",
+      "Vanellope Von Sxhweetz",
+      "Fix-it Felix"
+    ],
+    "summary":"A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.",
+    "rating": 7.7,
+    "is_musical": false
+  
+  },
+  
+  
+  
+  
+  {
+    "image": "./photos/kungfupanda.jpg",
+    "title": "Kung Fu Panda",
+    "director": [
+      "Mark Osborne",
+      "John Stevenson"
+    ],
+    "release_year": 2008,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Action"
+    ],
+    "characters": [
+      "Po",
+      "Tigress",
+      "Master Shifu",
+      "Tai Lung"
+    ],
+    "summary":"To everyone's surprise, including his own, Po, a clumsy panda, is chosen as protector of the Valley of Peace. His suitability will soon be tested as the valley's arch-enemy is on his way.",
+    "rating": 7.6,
+    "is_musical": false
+  
+  },
+  
+  
+  
+  
+  {
+    "image": "./photos/moana.jpg",
+    "title": "Moana",
+    "director": [
+      "Ron Clements",
+      "John Musker",
+      "Don Hall",
+      "Chris Williams"
+    ],
+    "release_year": 2016,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Moana",
+      "Maui"
+    ],
+    "summary":"In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right.",
+    "rating": 7.6,
+    "is_musical": true
+  
+  },
+  
+  
+  
+  
+  {
+    "image": "./photos/frozen.jpeg",
+    "title": "Frozen",
+    "director": [
+      "Chris Buck",
+      "Jennifer Lee"
+    ],
+    "release_year": 2013,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Elsa",
+      "Anna",
+      "Olaf",
+      "Kristoff"
+    ],
+    "summary":"When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
+    "rating": 7.4,
+    "is_musical": true
+  
+  },
+  
+  
+  
+  
+  {
+    "image": "./photos/iceage.jpg",
+    "title": "Ice Age",
+    "director": [
+      "Chris Wedge",
+      "Carlos Saldanha"
+    ],
+    "release_year": 2002,
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "characters": [
+      "Manfred",
+      "Sid",
+      "Scrat",
+      "Diego"
+    ],
+    "summary":"The story revolves around sub-zero heroes: a woolly mammoth, a saber-toothed tiger, a sloth and a prehistoric combination of a squirrel and rat, known as Scrat.",
+    "rating": 7.5,
+    "is_musical": false
+  
+  }
+  
+  ]
