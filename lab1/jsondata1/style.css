@@ -12,48 +12,6 @@ font-style: normal; */
 } */
 @media (max-width: 1000px) {
 	
-	.collection {
-		/* display: flex;
-		flex-direction: row;
-		overflow-x: scroll;
-		overflow: hidden; */
-
-		position: relative; 
-	   display: flex;
-	  /* justify-content: space-around; */
-	  flex-direction: row;
-	  flex-wrap: nowrap; 
-	  overflow-x: scroll;
-	  position: relative;
-	
-	}
-	
-	.container{
-		/* display: flex;
-		flex-direction: row;
-		overflow-x: scroll;
-		width: 200px;
-		position: absolute;
-		flex: 100%;
-	  max-width: 200px; */
-	  flex: 100%;
-	  max-width: 300px;
-	  /* position: absolute; */
-	  justify-content: space-between;
-	  padding: 50px;
-	  margin: 50px;
-	  transition: transform 0.3s ease;
-	}
-	.container img  {
-		height: 50vh;
-		width: auto;
-	}
-	.cover:hover {
-		transform: translateY(-50px);
-		z-index: 4;
-
-	}
-
 
 	.popup {
 		position: fixed;
@@ -275,9 +233,26 @@ font-size: 1.2em;
 	  flex-direction: row;
 	  flex-wrap: nowrap; 
 	  overflow-x: scroll;
-	  position: relative;
 	
 	}
+
+	.container {
+		display: flex;
+	  align-items: flex-start;
+
+	margin: 10px;
+		position: relative;
+		display: inline-block;
+		
+	
+	}
+	.cover{
+
+		width: 350px; /* Change this to your desired image width */
+		height: auto;
+		margin: 20px;
+		z-index: 2;
+	  }
   .popup {
 	position: fixed;
 	width: 90%;
