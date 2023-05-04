@@ -276,7 +276,7 @@ body {
     font-size: 35px;
     font-weight: 800;
     transition:all 1s linear;
-    position: absolute;
+    position: relative;
     writing-mode: vertical-rl;
     text-orientation: mixed;
     margin-left: auto;
@@ -287,6 +287,16 @@ body {
 
 
   }
+
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: gray;
+  }
+
   
 
   
