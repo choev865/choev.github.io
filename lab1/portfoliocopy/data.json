@@ -1,0 +1,41 @@
+[
+    {
+    
+      "title": "Stories as Network",
+      "Class": "Core 2: Studio",
+      "link": "href=https://choev865.github.io/choev.github.io/interactionstudio/website2/",
+      "brief_description":"For this project, I had to create a short story through HTML, CSS, and multiple screen views. I wanted to create a scavenger love hunt for a possible loved one or partner through Notion, Google Forms, Spotify, Instagram, Calendly, and Google Maps to convey my story. I wanted to keep the content very general and non-specific to a certain person so anyone who opens it can feel like it was made for them. ",
+      "image": [
+        "images/stories/sketch1.png",
+        "images/stories/sketch2.png",
+        "images/stories/homepage.png",
+        "images/stories/notion.png",
+        "images/stories/purple.png",
+        "images/stories/letter.png",
+        "images/stories/link.png",
+        "images/stories/spotify.png",
+        "images/stories/instagram.png",
+        "images/stories/maps.png"
+      ]
+    },
+    
+    {
+    
+        "title": "Elastic Collection",
+        "class": "Core 2: Lab",
+        "link": "href=https://choev865.github.io/choev.github.io/lab1/vinylhome/index.html",
+        "brief_description":"For this project, I was given a set of data from a classmate and I had to create a collection that displays the 50 items in the dataset. The requirements for this project were to filter and display the 50 items in an Airtable collection and make it responsive as well. My collection was vinyls from the years 1960-2000s. I wanted to make it look like folders where you can sort through vinyls and have a retro pop aesthetic.",
+        "image": [
+          "images/elastic/homepage.png",
+          "images/elastic/full-pop.png",
+          "images/elastic/mobile-folder.png",
+          "images/elastic/mobile-filter.png",
+          "images/elastic/popup.png"
+        ]
+      }
+
+
+   
+
+      
+]
