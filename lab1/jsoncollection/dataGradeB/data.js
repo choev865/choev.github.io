@@ -172,8 +172,8 @@ function renderItems(collection) {
 
   
   function openNav() {
-	document.getElementById("mySidenav").style.width = "300px";
-	document.getElementById("main").style.marginLeft = "250px";
+	document.getElementById("mySidenav").style.width = "450px";
+	document.getElementById("main").style.marginLeft = "200px";
   }
   
   /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
