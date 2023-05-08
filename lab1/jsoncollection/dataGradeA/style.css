@@ -1,309 +1,327 @@
 body {
-    font-family: 'Alegreya Sans', sans-serif;
-    
+  font-family: 'Alegreya Sans', sans-serif;
+  
 }
 
 .header {
-    font-family: 'Alegreya Sans', sans-serif;
-    justify-content: center;
-    width: 100%;
+  font-family: 'Alegreya Sans', sans-serif;
+  justify-content: center;
+  width: 100%;
 
 
 }
 
 h1 {
-    font-size: 1.8em;
-    text-align: center;
-    margin: 0;
-    line-height: 1.5;
+  font-size: 1.8em;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
 }
 h2 {
-    font-size: 1.4em;
-    text-align: center;
-    margin: 0;
-    line-height: 100%;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 0;
+  line-height: 100%;
 
 }
 h3 {
-    font-size: 2em;
-    text-align: center;
-    margin: 20;
-    text-decoration: underline;
+  font-size: 2em;
+  text-align: center;
+  margin: 20;
+  text-decoration: underline;
 
 }
 
 
+
+.collection {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
   
-  .collection {
-    display: flex;
-    font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    
-  }
+}
 ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    font-weight: 800;
-    
-    
-  }
-
-  .critical-items {
-    width: 50%;
-    font-weight: 600;
-    padding: 50px;
-    border-style: solid;
-    margin: 10px;
-
-  }
+font-family: 'Alegreya Sans', sans-serif;
+text-transform: capitalize;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-weight: 800;
   
-  .non-critical-items {
-    width: 50%;
-    font-weight: 600;
-    padding: 50px;
-    border-style: solid;
-    margin: 10px;
-
-
-  }
-
-  .restaurantName {
-    padding-bottom: 20px;
-  }
-
-  /* .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-  } */
-
-
   
-  .pop-up.show {
-    display: block;
-  }
+}
 
-   .pop-up {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  
-  .pop-up-content {
-    background-color: #fefefe;
-    margin: 10% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 70%;
-    height: auto;
-    top: 50%;
-    font-family: 'Inter', sans-serif;
-    text-transform: capitalize;
-  }
-  .pop-up-title {
-    text-transform: uppercase;
-    margin: 0;
-    font-size: 2rem;
-    padding: 10px;
+.critical-items {
+  width: 50%;
+  font-weight: 600;
+  padding: 50px;
+  border-style: solid;
+  margin: 10px;
 
- 
+}
 
-  }
-  .content {
+.non-critical-items {
+  width: 50%;
+  font-weight: 600;
+  padding: 50px;
+  border-style: solid;
+  margin: 10px;
+
+
+}
+
+.restaurantName {
+  padding-bottom: 20px;
+}
+
+/* .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+} */
+
+
+
+.pop-up.show {
+  display: block;
+}
+
+ .pop-up {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.pop-up-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+  height: auto;
+  top: 50%;
+  font-family: 'Inter', sans-serif;
+  text-transform: capitalize;
+}
+.pop-up-title {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 2rem;
+  padding: 10px;
+
+
+
+}
+.content {
 margin: 0;
 padding: 10px;
-  }
- 
-  .violation {
+}
+
+.violation {
 margin: 0;
 padding: 10px;
-  }
+}
 
 
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+
+
+
+
+.pop-up1.show {
+  display: block;
+}
+
+ .pop-up1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.pop-up-content1 {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+  height: auto;
+  top: 50%;
+  font-family: 'Inter', sans-serif;
+  text-transform: capitalize;
   
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  } 
- 
+}
+.pop-up-title1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 2rem;
+  padding: 10px;
 
 
 
+}
 
-  .pop-up1.show {
-    display: block;
-  }
-
-   .pop-up1 {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  
-  .pop-up-content1 {
-    background-color: #fefefe;
-    margin: 10% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 70%;
-    height: auto;
-    top: 50%;
-    font-family: 'Inter', sans-serif;
-    text-transform: capitalize;
-    
-  }
-  .pop-up-title1 {
-    text-transform: uppercase;
-    margin: 0;
-    font-size: 2rem;
-    padding: 10px;
-
- 
-
-  }
-
-  .restaurantName1 {
-    padding-bottom: 20px;
-  }
-  .content1 {
+.restaurantName1 {
+  padding-bottom: 20px;
+}
+.content1 {
 margin: 0;
 padding: 10px;
-  }
- 
-  .violation1 {
+}
+
+.violation1 {
 margin: 0;
 padding: 10px;
-  }
+}
 
-  .close1 {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  
-  .close1:hover,
-  .close1:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  } 
+.close1 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
 
-
-
-  .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  span {
-    font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    background-color: rgb(73, 73, 73);
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
+.close1:hover,
+.close1:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+} 
 
 
-  }
-  .scoreTitle {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Inter', sans-serif;
+.content {
+padding: 25px;
+}
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
 
-  }
-  .scoreInfo {
-    color: white;
-    padding: 15px;
-    font-size: 15px;
-    line-height: 1.6rem;
-    font-family: 'Inter', sans-serif;
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 
-  }
+}
 
-  .criticalTitle {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Inter', sans-serif;
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
 
-  }
-  .criticalInfo {
-    color: white;
-    padding: 15px;
-    font-size: 15px;
-    line-height: 1.6rem;
-    font-family: 'Inter', sans-serif;
+button {
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: rgb(73, 73, 73);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+}
 
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-bottom: 50px;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-bottom .5s;
-    padding: 20px;
-  }
+
+span {
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: rgb(73, 73, 73);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+
+
+}
+.scoreTitle {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+
+}
+.scoreInfo {
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+  line-height: 1.6rem;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.criticalTitle {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+
+}
+.criticalInfo {
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+  line-height: 1.6rem;
+  font-family: 'Inter', sans-serif;
+
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-bottom .5s;
+  padding: 20px;
+}
