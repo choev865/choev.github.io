@@ -78,7 +78,7 @@ background: linear-gradient(90deg, #7DE2FC, #B9B6E5, rgb(76, 221, 242), rgb(92, 
 .folder1 {
   z-index: 200;
   position: fixed;
-  bottom: 0;
+  bottom: -50px;
   left: 0;
  
   margin: auto;
